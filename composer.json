@@ -1,0 +1,25 @@
+{
+  "name": "gainline/laravel-hookdeck",
+  "description": "Laravel wrapper for the Hookdeck API",
+  "version": "1.0.0",
+  "require": {
+    "php": "^8.0",
+    "guzzlehttp/guzzle": "^7.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "GainLine\\Hookdeck\\": "src/",
+      "Hookdeck\\": "sdk/Hookdeck/lib/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "GainLine\\Hookdeck\\HookdeckServiceProvider"
+      ],
+      "aliases": {
+        "Hookdeck": "GainLine\\Hookdeck\\Facades\\Hookdeck"
+      }
+    }
+  }
+}

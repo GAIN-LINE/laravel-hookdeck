@@ -1,0 +1,10 @@
+# # SourceConfigWebhookAuthFiserv
+
+## Properties
+
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**webhook_secret_key** | **string** |  |
+**store_name** | **string** |  | [optional]
+
+[[Back to Model list]](../../README.md#models) [[Back to API list]](../../README.md#endpoints) [[Back to README]](../../README.md)
