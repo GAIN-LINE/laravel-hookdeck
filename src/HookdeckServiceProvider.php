@@ -17,7 +17,7 @@ class HookdeckServiceProvider extends ServiceProvider
         $this->app->singleton(Configuration::class, function () {
             $config = new Configuration();
             $config->setHost(config('hookdeck.base_uri'));
-            $config->setAccessToken('Bearer ' . config('hookdeck.api_key'));
+            $config->setAccessToken(config('hookdeck.api_key'));
             return $config;
         });
 

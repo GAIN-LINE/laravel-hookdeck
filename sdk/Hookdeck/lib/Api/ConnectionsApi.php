@@ -3020,8 +3020,6 @@ class ConnectionsApi
             $headers
         );
 
-        dump($headers);
-
         $operationHost = $this->config->getHost();
         $query = ObjectSerializer::buildQuery($queryParams);
         return new Request(
@@ -3582,8 +3580,6 @@ class ConnectionsApi
         if (!empty($this->config->getAccessToken())) {
             $headers['Authorization'] = 'Bearer ' . $this->config->getAccessToken();
         }
-
-        dump($headers);
 
         $defaultHeaders = [];
 
