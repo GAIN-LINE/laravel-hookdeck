@@ -1,7 +1,7 @@
 {
   "name": "gainline/laravel-hookdeck",
   "description": "Laravel wrapper for the Hookdeck API",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "require": {
     "php": "^8.0",
     "guzzlehttp/guzzle": "^7.0"
